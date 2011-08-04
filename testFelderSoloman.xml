@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEST>
+
+    <NAME>Test Felder-Soloman</NAME>
+
+    <LANG>es_utf8</LANG>
+
+    <AVAILABLE>1</AVAILABLE>
+
+    <REDOALLOWED>1</REDOALLOWED>
+
+    <MULTIPLEANSWER>0</MULTIPLEANSWER>
+
+    <NOTANSWEREDQUESTION>0</NOTANSWEREDQUESTION>
+
+    <STYLEDEFINED>0</STYLEDEFINED>
+
+    <STYLES>
+        <STYLE>Activo-Reflexivo</STYLE>
+        <STYLE>Sensorial-Intuitivo</STYLE>
+        <STYLE>Visual-Verbal</STYLE>
+        <STYLE>Secuencial-Global</STYLE>
+    </STYLES>
+
+    <LEVELS>
+        <LEVEL>Equilibrio apropiado</LEVEL>
+        <LEVEL>Preferencia moderada</LEVEL>
+        <LEVEL>Preferencia muy fuerte</LEVEL>
+    </LEVELS>
+
+    <ANSWERS>
+        <ANSWER>Opción 1</ANSWER>
+        <ANSWER>Opción 2</ANSWER>
+    </ANSWERS>
+
+    <ITEMS>
+
+        <ITEM>
+            <ITEMSTYLE>1</ITEMSTYLE>
+            <QUESTION>Entiendo mejor algo:
+<BR />Opción 1: Si lo practico.
+<BR />Opción 2: Si pienso en ello.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>2</ITEMSTYLE>
+            <QUESTION>Me considero una persona:
+<BR />Opción 1: Realista.
+<BR />Opción 2: Innovadora.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>3</ITEMSTYLE>
+            <QUESTION>Cuando pienso acerca de lo que hice ayer, es más probable que lo haga sobre la base de:
+<BR />Opción 1: Una imagen
+<BR />Opción 2: Palabras.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>4</ITEMSTYLE>
+            <QUESTION>Tengo tendencia a:
+<BR />Opción 1: Entender los detalles de un tema pero no ver claramente su estructura completa.
+<BR />Opción 2: Entender la estructura completa pero no ver claramente los detalles.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>1</ITEMSTYLE>
+            <QUESTION>Cuando estoy aprendiendo algo nuevo, me ayuda:
+<BR />Opción 1: Hablar de ello.
+<BR />Opción 2: Pensar en ello.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>2</ITEMSTYLE>
+            <QUESTION>Si yo fuera profesor, yo preferiría dar un curso:
+<BR />Opción 1: Que trate sobre hechos y situaciones reales de la vida.
+<BR />Opción 2: Que trate con ideas y teorías.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>3</ITEMSTYLE>
+            <QUESTION>Prefiero obtener información nueva de:
+<BR />Opción 1: Imágenes, diagramas, gráficas o mapas.
+<BR />Opción 2: Instrucciones escritas o información verbal.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>4</ITEMSTYLE>
+            <QUESTION>Una vez que entiendo:
+<BR />Opción 1: Todas las partes, entiendo el total.
+<BR />Opción 2: El total de algo, entiendo como encajan sus partes.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>1</ITEMSTYLE>
+            <QUESTION>En un grupo de estudio que trabaja con un material difícil, es más probable que:
+<BR />Opción 1: Participe y contribuya con ideas.
+<BR />Opción 2: No participe y solo escuche.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>2</ITEMSTYLE>
+            <QUESTION>Es más fácil para mí:
+<BR />Opción 1: Aprender hechos
+<BR />Opción 2: Aprender conceptos.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>3</ITEMSTYLE>
+            <QUESTION>En un libro con muchas imágenes y gráficas es más probable que:
+<BR />Opción 1: Revise cuidadosamente las imágenes y las gráficas.
+<BR />Opción 2: Me concentre en el texto escrito.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>4</ITEMSTYLE>
+            <QUESTION>Cuando resuelvo problemas de matemáticas:
+<BR />Opción 1: generalmente trabajo sobre las soluciones con un paso a la vez.
+<BR />Opción 2: frecuentemente sé cuales son las soluciones, pero luego tengo dificultad para imaginarme los pasos para llegar a el</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>1</ITEMSTYLE>
+            <QUESTION>En las clases a las que he asistido:
+<BR />Opción 1: He llegado a saber como son muchos de los estudiantes.
+<BR />Opción 2: Raramente he llegado a saber como son muchos estudiantes.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>2</ITEMSTYLE>
+            <QUESTION>Cuando leo temas que no son de ficción, prefiero:
+<BR />Opción 1: Algo que me enseñe nuevos hechos o me diga como hacer algo.
+<BR />Opción 2: Algo que me dé nuevas ideas en que pensar.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>3</ITEMSTYLE>
+            <QUESTION>Me gustan los maestros:
+<BR />Opción 1: Que utilizan muchos esquemas en el pizarrón.
+<BR />Opción 2: Que toman mucho tiempo para explicar.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>4</ITEMSTYLE>
+            <QUESTION>Cuando estoy analizando un cuento o una novela:
+<BR />Opción 1: pienso en los incidentes y trato de acomodarlos para configurar los temas.
+<BR />Opción 2: me doy cuenta de cuales son los temas cuando termino de leer y luego tengo que regresar y encontra</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>1</ITEMSTYLE>
+            <QUESTION>Cuando comienzo a resolver un problema de tarea, es más probable que:
+<BR />Opción 1: comience a trabajar en su solución inmediatamente.
+<BR />Opción 2: primero trate de entender completamente el problema.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>2</ITEMSTYLE>
+            <QUESTION>Prefiero la idea de:
+<BR />Opción 1: Certeza.
+<BR />Opción 2: Teoría.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>3</ITEMSTYLE>
+            <QUESTION>Recuerdo mejor:
+<BR />Opción 1: Lo que veo
+<BR />Opción 2: Lo que oigo</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>4</ITEMSTYLE>
+            <QUESTION>Es más importante para mí que un profesor:
+<BR />Opción 1: Exponga el material en pasos secuenciales claros.
+<BR />Opción 2: Me dé un panorama general y relacione el material con otros temas.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>1</ITEMSTYLE>
+            <QUESTION>Prefiero estudiar:
+<BR />Opción 1: En un grupo de estudio.
+<BR />Opción 2: Solo.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>2</ITEMSTYLE>
+            <QUESTION>Me considero:
+<BR />Opción 1: Cuidadoso en los detalles de mi trabajo.
+<BR />Opción 2: Creativo en la forma en la que hago mi trabajo.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>3</ITEMSTYLE>
+            <QUESTION>Cuando alguien me da direcciones de nuevos lugares, prefiero:
+<BR />Opción 1: Un mapa.
+<BR />Opción 2: Instrucciones escritas.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>4</ITEMSTYLE>
+            <QUESTION>Aprendo:
+<BR />Opción 1: A un paso constante. Si estudio con ahínco consigo lo que deseo.
+<BR />Opción 2: En inicios y pausas. Me llego a confundir y súbitamente lo entiendo.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>1</ITEMSTYLE>
+            <QUESTION>Prefiero primero:
+<BR />Opción 1: Hacer algo y ver que sucede.
+<BR />Opción 2: Pensar como voy a hacer algo.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>2</ITEMSTYLE>
+            <QUESTION>Cuando leo por diversión, me gustan los escritores que:
+<BR />Opción 1: Dicen claramente los que desean dar a entender.
+<BR />Opción 2: Dicen las cosas en forma creativa e interesante.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>3</ITEMSTYLE>
+            <QUESTION>Cuando veo un esquema o bosquejo en clase, es más
+probable que recuerde:
+<BR />Opción 1:  La imagen
+<BR />Opción 2:  Lo que el profesor dijo acerca de ella.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>4</ITEMSTYLE>
+            <QUESTION>Cuando me enfrento a un cuerpo de información:
+<BR />Opción 1:  Me concentro en los detalles y pierdo de vista el total de la misma.
+<BR />Opción 2:  Trato de entender el todo antes de ir a los detalles.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>1</ITEMSTYLE>
+            <QUESTION>Recuerdo más fácilmente:
+<BR />Opción 1:  Algo que he hecho.
+<BR />Opción 2: Algo en lo que he pensado mucho.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>2</ITEMSTYLE>
+            <QUESTION>Cuando tengo que hacer un trabajo, prefiero:
+<BR />Opción 1: Dominar una forma de hacerlo.
+<BR />Opción 2: Intentar nuevas formas de hacerlo.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>3</ITEMSTYLE>
+            <QUESTION>Cuando alguien me enseña datos, prefiero:
+<BR />Opción 1: Gráficas.
+<BR />Opción 2: Resúmenes con texto.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>4</ITEMSTYLE>
+            <QUESTION>Cuando escribo un trabajo, es más probable que:
+<BR />Opción 1: Lo haga (piense o escriba) desde el principio y avance.
+<BR />Opción 2: Lo haga (piense o escriba) en diferentes partes y luego las ordene.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>1</ITEMSTYLE>
+            <QUESTION>Cuando tengo que trabajar en un proyecto de grupo, primero quiero:
+<BR />Opción 1: Realizar una <i>tormenta de ideas</i> donde cada uno contribuye con ideas.
+<BR />Opción 2: Realizar la <i>tormenta de ideas</i> en forma personal y luego juntarme con el </QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>2</ITEMSTYLE>
+            <QUESTION>Considero que es mejor elogio llamar a alguien:
+<BR />Opción 1: Sensible.
+<BR />Opción 2: Imaginativo.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>3</ITEMSTYLE>
+            <QUESTION>Cuando conozco gente en una fiesta, es más probable que recuerde:
+<BR />Opción 1: Cómo es su apariencia.
+<BR />Opción 2: Lo que dicen de sí mismos.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>4</ITEMSTYLE>
+            <QUESTION>Cuando estoy aprendiendo un tema, prefiero:
+<BR />Opción 1: Mantenerme concentrado en ese tema, aprendiendo lo más que pueda de él.
+<BR />Opción 2: Hacer conexiones entre ese tema y temas relacionados.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>1</ITEMSTYLE>
+            <QUESTION>Me considero una persona:
+<BR />Opción 1: Abierta.
+<BR />Opción 2: Reservada.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>2</ITEMSTYLE>
+            <QUESTION>Prefiero cursos que dan más importancia a:
+<BR />Opción 1: Material concreto (hechos, datos).
+<BR />Opción 2: Material abstracto (conceptos, teorías).</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>3</ITEMSTYLE>
+            <QUESTION>Para divertirme, prefiero:
+<BR />Opción 1: Ver televisión.
+<BR />Opción 2: Leer un libro.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>4</ITEMSTYLE>
+            <QUESTION>Algunos profesores inician sus clases haciendo un bosquejo de lo que enseñarán. Esos bosquejos son:
+<BR />Opción 1: Algo útiles para mí.
+<BR />Opción 2: Muy útiles para mí.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>1</ITEMSTYLE>
+            <QUESTION>La idea de hacer una tarea en grupo con una sola calificación para todos:
+<BR />Opción 1: Me parece bien.
+<BR />Opción 2: No me parece bien.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>2</ITEMSTYLE>
+            <QUESTION>Cuando hago grandes cálculos:
+<BR />Opción 1: Tiendo a repetir todos mis pasos y revisar cuidadosamente mi trabajo.
+<BR />Opción 2: Me cansa hacer su revisión y tengo que esforzarme para hacerlo.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>3</ITEMSTYLE>
+            <QUESTION>Tiendo a recordar lugares en los que he estado:
+<BR />Opción 1: Fácilmente y con bastante exactitud.
+<BR />Opción 2: Con dificultad y sin mucho detalle.</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>4</ITEMSTYLE>
+            <QUESTION>Cuando resuelvo problemas en grupo, es más probable que yo:
+<BR />Opción 1: Piense en los pasos para la solución de los problemas.
+<BR />Opción 2: Piense en las posibles consecuencias o aplicaciones de la solución en un amplio rango de campos.</QUESTION>
+        </ITEM>
+    </ITEMS>
+
+    <SCORES>
+
+        <SCORE>
+            <SCOREITEM>1</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>1</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>2</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>2</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>3</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>3</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>4</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>4</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>5</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>5</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>6</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>6</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>7</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>7</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>8</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>8</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>9</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>9</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>10</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>10</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>11</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>11</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>12</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>12</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>13</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>13</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>14</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>14</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>15</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>15</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>16</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>16</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>17</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>17</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>18</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>18</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>19</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>19</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>20</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>20</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>21</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>21</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>22</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>22</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>23</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>23</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>24</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>24</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>25</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>25</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>26</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>26</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>27</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>27</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>28</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>28</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>29</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>29</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>30</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>30</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>31</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>31</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>32</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>32</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>33</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>33</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>34</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>34</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>35</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>35</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>36</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>36</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>37</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>37</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>38</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>38</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>39</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>39</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>40</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>40</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>41</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>41</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>42</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>42</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>43</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>43</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>44</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>-1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>44</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>0</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+    </SCORES>
+
+    <THRESHOLDS>
+
+        <THRESHOLD>
+            <THRESHOLDSTYLE>1</THRESHOLDSTYLE>
+            <THRESHOLDLEVEL>1</THRESHOLDLEVEL>
+            <INFTHRESHOLD>-3</INFTHRESHOLD>
+            <SUPTHRESHOLD>3</SUPTHRESHOLD>
+        </THRESHOLD>
+
+        <THRESHOLD>
+            <THRESHOLDSTYLE>1</THRESHOLDSTYLE>
+            <THRESHOLDLEVEL>2</THRESHOLDLEVEL>
+            <INFTHRESHOLD>-7</INFTHRESHOLD>
+            <SUPTHRESHOLD>7</SUPTHRESHOLD>
+        </THRESHOLD>
+
+        <THRESHOLD>
+            <THRESHOLDSTYLE>1</THRESHOLDSTYLE>
+            <THRESHOLDLEVEL>3</THRESHOLDLEVEL>
+            <INFTHRESHOLD>-11</INFTHRESHOLD>
+            <SUPTHRESHOLD>11</SUPTHRESHOLD>
+        </THRESHOLD>
+
+        <THRESHOLD>
+            <THRESHOLDSTYLE>2</THRESHOLDSTYLE>
+            <THRESHOLDLEVEL>1</THRESHOLDLEVEL>
+            <INFTHRESHOLD>-3</INFTHRESHOLD>
+            <SUPTHRESHOLD>3</SUPTHRESHOLD>
+        </THRESHOLD>
+
+        <THRESHOLD>
+            <THRESHOLDSTYLE>2</THRESHOLDSTYLE>
+            <THRESHOLDLEVEL>2</THRESHOLDLEVEL>
+            <INFTHRESHOLD>-7</INFTHRESHOLD>
+            <SUPTHRESHOLD>7</SUPTHRESHOLD>
+        </THRESHOLD>
+
+        <THRESHOLD>
+            <THRESHOLDSTYLE>2</THRESHOLDSTYLE>
+            <THRESHOLDLEVEL>3</THRESHOLDLEVEL>
+            <INFTHRESHOLD>-11</INFTHRESHOLD>
+            <SUPTHRESHOLD>11</SUPTHRESHOLD>
+        </THRESHOLD>
+
+        <THRESHOLD>
+            <THRESHOLDSTYLE>3</THRESHOLDSTYLE>
+            <THRESHOLDLEVEL>1</THRESHOLDLEVEL>
+            <INFTHRESHOLD>-3</INFTHRESHOLD>
+            <SUPTHRESHOLD>3</SUPTHRESHOLD>
+        </THRESHOLD>
+
+        <THRESHOLD>
+            <THRESHOLDSTYLE>3</THRESHOLDSTYLE>
+            <THRESHOLDLEVEL>2</THRESHOLDLEVEL>
+            <INFTHRESHOLD>-7</INFTHRESHOLD>
+            <SUPTHRESHOLD>7</SUPTHRESHOLD>
+        </THRESHOLD>
+
+        <THRESHOLD>
+            <THRESHOLDSTYLE>3</THRESHOLDSTYLE>
+            <THRESHOLDLEVEL>3</THRESHOLDLEVEL>
+            <INFTHRESHOLD>-11</INFTHRESHOLD>
+            <SUPTHRESHOLD>11</SUPTHRESHOLD>
+        </THRESHOLD>
+
+        <THRESHOLD>
+            <THRESHOLDSTYLE>4</THRESHOLDSTYLE>
+            <THRESHOLDLEVEL>1</THRESHOLDLEVEL>
+            <INFTHRESHOLD>-3</INFTHRESHOLD>
+            <SUPTHRESHOLD>3</SUPTHRESHOLD>
+        </THRESHOLD>
+
+        <THRESHOLD>
+            <THRESHOLDSTYLE>4</THRESHOLDSTYLE>
+            <THRESHOLDLEVEL>2</THRESHOLDLEVEL>
+            <INFTHRESHOLD>-7</INFTHRESHOLD>
+            <SUPTHRESHOLD>7</SUPTHRESHOLD>
+        </THRESHOLD>
+
+        <THRESHOLD>
+            <THRESHOLDSTYLE>4</THRESHOLDSTYLE>
+            <THRESHOLDLEVEL>3</THRESHOLDLEVEL>
+            <INFTHRESHOLD>-11</INFTHRESHOLD>
+            <SUPTHRESHOLD>11</SUPTHRESHOLD>
+        </THRESHOLD>
+
+    </THRESHOLDS>
+
+</TEST>

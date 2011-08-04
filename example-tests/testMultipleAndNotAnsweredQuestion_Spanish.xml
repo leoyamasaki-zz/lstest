@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEST>
+
+    <NAME>Otro test</NAME>
+
+    <LANG>es_utf8</LANG>
+
+    <AVAILABLE>1</AVAILABLE>
+
+    <REDOALLOWED>1</REDOALLOWED>
+
+    <MULTIPLEANSWER>1</MULTIPLEANSWER>
+
+    <NOTANSWEREDQUESTION>1</NOTANSWEREDQUESTION>
+
+    <STYLES>
+        <STYLE>Estilo 1</STYLE>
+        <STYLE>Estilo 2</STYLE>
+    </STYLES>
+
+    <LEVELS>
+        <LEVEL>Baja</LEVEL>
+        <LEVEL>Alta</LEVEL>
+    </LEVELS>
+
+    <ANSWERS>
+        <ANSWER>Poco de acuerdo</ANSWER>
+        <ANSWER>Bastante de acuerdo</ANSWER>
+    </ANSWERS>
+
+    <ITEMS>
+
+        <ITEM>
+            <ITEMSTYLE>1</ITEMSTYLE>
+            <QUESTION>Esta es la pregunta 1</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>2</ITEMSTYLE>
+            <QUESTION>Esta es la pregunta 2</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>1</ITEMSTYLE>
+            <QUESTION>Esta es la pregunta 3</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>2</ITEMSTYLE>
+            <QUESTION>Esta es la pregunta 4</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>1</ITEMSTYLE>
+            <QUESTION>Esta es la pregunta 5</QUESTION>
+        </ITEM>
+
+        <ITEM>
+            <ITEMSTYLE>2</ITEMSTYLE>
+            <QUESTION>Esta es la pregunta 6</QUESTION>
+        </ITEM>
+    </ITEMS>
+
+    <SCORES>
+
+        <SCORE>
+            <SCOREITEM>1</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>-1</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>1</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>-1</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>2</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>-1</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>2</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>-1</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>3</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>-1</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>3</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>-1</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>4</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>-1</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>4</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>-1</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>5</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>-1</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>5</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>-1</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>6</SCOREITEM>
+            <SCOREANSWER>1</SCOREANSWER>
+            <NOCHECKEDSCORE>-1</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+        <SCORE>
+            <SCOREITEM>6</SCOREITEM>
+            <SCOREANSWER>2</SCOREANSWER>
+            <NOCHECKEDSCORE>-1</NOCHECKEDSCORE>
+            <CHECKEDSCORE>1</CHECKEDSCORE>
+        </SCORE>
+
+    </SCORES>
+
+    <THRESHOLDS>
+
+        <THRESHOLD>
+            <THRESHOLDSTYLE>1</THRESHOLDSTYLE>
+            <THRESHOLDLEVEL>1</THRESHOLDLEVEL>
+            <INFTHRESHOLD>-6</INFTHRESHOLD>
+            <SUPTHRESHOLD>0</SUPTHRESHOLD>
+        </THRESHOLD>
+
+        <THRESHOLD>
+            <THRESHOLDSTYLE>1</THRESHOLDSTYLE>
+            <THRESHOLDLEVEL>2</THRESHOLDLEVEL>
+            <INFTHRESHOLD>1</INFTHRESHOLD>
+            <SUPTHRESHOLD>6</SUPTHRESHOLD>
+        </THRESHOLD>
+
+        <THRESHOLD>
+            <THRESHOLDSTYLE>2</THRESHOLDSTYLE>
+            <THRESHOLDLEVEL>1</THRESHOLDLEVEL>
+            <INFTHRESHOLD>-6</INFTHRESHOLD>
+            <SUPTHRESHOLD>0</SUPTHRESHOLD>
+        </THRESHOLD>
+
+        <THRESHOLD>
+            <THRESHOLDSTYLE>2</THRESHOLDSTYLE>
+            <THRESHOLDLEVEL>2</THRESHOLDLEVEL>
+            <INFTHRESHOLD>1</INFTHRESHOLD>
+            <SUPTHRESHOLD>6</SUPTHRESHOLD>
+        </THRESHOLD>
+
+    </THRESHOLDS>
+
+</TEST>

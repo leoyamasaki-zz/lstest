@@ -1,0 +1,54 @@
+<?php
+    if (!isset($form->name)) {
+        $form->name = "";
+    }
+    if (!isset($form->testsid)) {
+        $form->testsid = "";
+    }
+    if (!isset($form->intro)) {
+        $form->intro = "";
+    }
+    $nohtmleditorneeded = true;
+?>
+
+<form name="form" method="post" action="../mod/lstest/details.php">
+<table cellpadding=5>
+<tr>
+    <td align=right><P><B><?php  print_string("name") ?>:</B></P></TD>
+    <td>
+        <input type="text" name="name" size=30 value="<?php p($form->name) ?>">
+    </td>
+</tr>
+<tr>
+    <td align=right><P><B><?php print_string("modulename", "lstest") ?>:</B></P></TD>
+    <td>
+    <?php
+        if ($tests = get_records("lstest_tests", "available", "1", "name asc")) {
+            foreach ($tests as $test) {
+                $options[$test->id] = $test->name." - ".$test->lang;
+            }
+            choose_from_menu($options, "testsid", $form->testsid);
+        }
+        else
+        {
+            print_string("errornotest", "lstest");
+        }
+    ?>
+    </td>
+</tr>
+</table>
+<CENTER>
+<input type="hidden" name=intro   value="<?php p($form->intro) ?>">
+<input type="hidden" name=sesskey   value="<?php p($form->sesskey) ?>">
+
+<input type="hidden" name=course     value="<?php p($form->course) ?>">
+<input type="hidden" name=coursemodule  value="<?php p($form->coursemodule) ?>">
+<input type="hidden" name=section       value="<?php p($form->section) ?>">
+<input type="hidden" name=module     value="<?php p($form->module) ?>">
+<input type="hidden" name=modulename value="<?php p("lstest") ?>">
+<input type="hidden" name=instance   value="<?php p($form->instance) ?>">
+<input type="hidden" name=mode       value="<?php p($form->mode) ?>">
+<br>
+<input type="submit" value="<?php print_string("continue") ?>">
+</CENTER>
+</FORM>

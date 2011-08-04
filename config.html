@@ -1,0 +1,76 @@
+<?php
+
+    $pixpath = "$CFG->wwwroot/mod/lstest/pix";
+    $modpath = "$CFG->wwwroot/mod/lstest";
+
+    $strname  = get_string("name");
+    $strlang = get_string("language");
+    $strhide = get_string("hide");
+    $strshow = get_string("show");
+    $strdelete = get_string("delete");
+    $stredit = get_string("edit");
+    $strexport = get_string("export", "lstest");
+    
+    $languages = get_list_of_languages();
+
+    $tests = get_records("lstest_tests", "", "", "name asc");
+
+    $table->head  = array ($strname, $strlang, "$strhide/$strshow".helpbutton("hideshow", "$strhide/$strshow", "lstest", true, false, "", true), $strdelete.helpbutton("delete", $strdelete, "lstest", true, false, "", true), $stredit.helpbutton("edit", $stredit, "lstest", true, false, "", true), $strexport.helpbutton("export", $strexport, "lstest", true, false, "", true));
+    $table->align = array ("CENTER", "CENTER", "CENTER", "CENTER", "CENTER", "CENTER");
+    $table->width = "100%";
+    
+    if ($tests) {
+    
+        foreach ($tests as $test) {
+
+            if ($test->available) {
+                $available = "<a href=$modpath/change.php?hide=$test->id&sesskey=$USER->sesskey title=\"$strhide\">".
+                             "<img src=\"$pixpath/hide.gif\" align=\"absmiddle\" height=16 width=16 border=0></a>";
+            } else {
+                $available = "<a href=$modpath/change.php?show=$test->id&sesskey=$USER->sesskey title=\"$strshow\">".
+                             "<img src=\"$pixpath/show.gif\" align=\"absmiddle\" height=16 width=16 border=0></a>";
+            }
+            
+            $delete = "<a href=$modpath/change.php?delete=$test->id&sesskey=$USER->sesskey title=\"$strdelete\">".
+                      "<img src=\"$pixpath/delete.gif\" align=\"absmiddle\" height=16 width=16 border=0></a>";
+
+            $edit = "<a href=$modpath/test.php?testid=$test->id&sesskey=$USER->sesskey title=\"$stredit\">".
+                    "<img src=\"$pixpath/edit.gif\" align=\"absmiddle\" height=16 width=16 border=0></a>";
+
+            $export = "<a href=$modpath/export.php?testid=$test->id&sesskey=$USER->sesskey title=\"$strexport\">".
+                    "<img src=\"$pixpath/export.gif\" align=\"absmiddle\" height=16 width=16 border=0></a>";
+            
+            if (isset($languages[$test->lang])) {
+                $table->data[] = array ($test->name, $languages[$test->lang], $available, $delete, $edit, $export);
+            } else {
+                $table->data[] = array ($test->name, 'language not found in list: '."$test->lang", $available, $delete, $edit, $export);
+            }
+
+        }
+    
+    }
+
+    echo "<br>";
+    print_table($table);
+
+    echo "<center>";
+    $straddnewstyle = get_string("addnewlstest", "lstest");
+    echo "<br><form name=\"form\" method=\"post\" action=$modpath/test.php>";
+    echo "<input type=\"submit\" value=\"$straddnewstyle\">";
+    helpbutton("newtest", $straddnewstyle, "lstest");
+    echo "<input type=hidden name=sesskey value=$USER->sesskey>";
+    echo "</form>";
+    echo "<br>";
+
+    $strimporttest = get_string("importtest", "lstest");
+    echo "<form enctype=\"multipart/form-data\" method=\"post\" action=$modpath/import.php>";    
+    echo "<input type=hidden name=MAX_FILE_SIZE value=100000>";
+    echo "<input type=hidden name=sesskey value=$USER->sesskey>";
+    echo "<input name=userfile type=file><br>";
+    echo "<input type=\"submit\" value=\"$strimporttest\">";
+    helpbutton("import", $strimporttest, "lstest");
+    echo "</form>";    
+    echo "</center>";
+    echo "<br>";
+        
+?>
