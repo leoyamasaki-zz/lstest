@@ -62,7 +62,7 @@ CREATE TABLE `prefix_lstest_items` (
   `id` int(10) unsigned NOT NULL auto_increment,
   `testsid` int(10) unsigned NOT NULL default '0',
   `stylesid` int(10) unsigned NOT NULL default '0',
-  `question` varchar(255) NOT NULL default '',
+  `question` varchar(1024) NOT NULL default '',
   PRIMARY KEY  (`id`)
 ) TYPE=MyISAM;
 # --------------------------------------------------------
