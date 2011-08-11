@@ -32,6 +32,7 @@
     $timenow = time();
 
     $test = get_record("lstest_tests", "id", "$lstest->testsid");
+    $styledefined = $test->styledefined; //get defined by answers (1) or questions (0)
     $styles = get_records("lstest_styles", "testsid", "$test->id", "id asc");
     //$stylesnum = count($styles);
     $items = get_records("lstest_items", "testsid", "$test->id", "id asc");
@@ -52,13 +53,21 @@
                 if ( !isset($_POST["$stranswer"]) ) {
                     $_POST["$stranswer"] = 0;
                 }
-                                    
-                if ($_POST["$stranswer"]) {
-                    $result["$item->stylesid"] += $score->checkedscore;
-                } else {
-                    $result["$item->stylesid"] += $score->nocheckedscore;
-                }
-                                
+				//Defined style on quest or ans
+                if($styledefined == 0) {
+                	if ($_POST["$stranswer"]) {
+                    	$result["$item->stylesid"] += $score->checkedscore;
+                	} else {
+                    	$result["$item->stylesid"] += $score->nocheckedscore;
+                	}
+            	}
+				if($styledefined == 1) {
+                	if ($_POST["$stranswer"]) {
+                    	$result["$score->stylesid"] += $score->checkedscore;
+                	} else {
+                    	$result["$score->stylesid"] += $score->nocheckedscore;
+                	}
+            	}
                 $newdata2->time = $timenow;
                 $newdata2->userid = $USER->id;
                 $newdata2->itemsid = $_POST["$stritemid"];
@@ -78,15 +87,27 @@
             }
             
             foreach($scores as $score) {
+				//Defined style on quest or ans
+                if($styledefined == 0) {
+					if ($_POST["$stranswer"] == $score->answersid) {
+                    	$result["$item->stylesid"] += $score->checkedscore;
+                	}
+                	else
+                	{
+                    	$result["$item->stylesid"] += $score->nocheckedscore;
+                	}
+            	}
+                if($styledefined == 1) {
+					if ($_POST["$stranswer"] == $score->answersid) {
+                    	$result["$score->stylesid"] += $score->checkedscore;
+                	}
+                	else
+                	{
+                    	$result["$score->stylesid"] += $score->nocheckedscore;
+                	}
+            	}
 
-                if ($_POST["$stranswer"] == $score->answersid) {
-                    $result["$item->stylesid"] += $score->checkedscore;
-                }
-                else
-                {
-                    $result["$item->stylesid"] += $score->nocheckedscore;
-                }
-            }
+			}
             
             foreach ($answers as $answer) {
                 $newdata2->time = $timenow;

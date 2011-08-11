@@ -77,7 +77,7 @@ function checkform() {
 <tr valign=top>
     <td></td>
     <td></td>
-<!-- Begin modification LYM -->
+<!-- modification -->
 <?php
     if($styledefined == 0) {
        echo("<td></td>\n");
