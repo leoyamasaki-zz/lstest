@@ -188,7 +188,7 @@ while (stristr($scorescontent, "<SCORE>")) {
     $scores[$i]->checkedscore = $result[0];
 	//
 		if($test->styledefined == 1){
-	    	$aux = spliti("<STYLEID>",$itemscontent,2);
+	    	$aux = spliti("<STYLEID>",$scorescontent,2);
 	    	$result = spliti("</STYLEID>",$aux[1],2);
 	    	$scores[$i]->stylesid = $styles[$result[0]]->id;
 		}
