@@ -8,7 +8,7 @@
 
     <AVAILABLE>1</AVAILABLE>
 
-    <REDOALLOWED>1</REDOALLOWED>
+    <REDOALLOWED>0</REDOALLOWED>
 
     <MULTIPLEANSWER>0</MULTIPLEANSWER>
 
@@ -145,7 +145,7 @@
             <ITEMSTYLE>4</ITEMSTYLE>
             <QUESTION>Cuando estoy analizando un cuento o una novela:
 <BR />Opción 1: pienso en los incidentes y trato de acomodarlos para configurar los temas.
-<BR />Opción 2: me doy cuenta de cuales son los temas cuando termino de leer y luego tengo que regresar y encontra</QUESTION>
+<BR />Opción 2: me doy cuenta de cuales son los temas cuando termino de leer y luego tengo que regresar y encontrar los incidentes que los demuestran.</QUESTION>
         </ITEM>
 
         <ITEM>
@@ -265,7 +265,7 @@ probable que recuerde:
             <ITEMSTYLE>1</ITEMSTYLE>
             <QUESTION>Cuando tengo que trabajar en un proyecto de grupo, primero quiero:
 <BR />Opción 1: Realizar una <i>tormenta de ideas</i> donde cada uno contribuye con ideas.
-<BR />Opción 2: Realizar la <i>tormenta de ideas</i> en forma personal y luego juntarme con el </QUESTION>
+<BR />Opción 2: Realizar la <i>tormenta de ideas</i> en forma personal y luego juntarme con el grupo para comparar las ideas.</QUESTION>
         </ITEM>
 
         <ITEM>

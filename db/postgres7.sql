@@ -56,7 +56,7 @@ CREATE TABLE prefix_lstest_items (
   id SERIAL PRIMARY KEY,
   testsid integer  NOT NULL default '0',
   stylesid integer  NOT NULL default '0',
-  question varchar(255) NOT NULL default ''
+  question varchar(1024) NOT NULL default ''
 );
 # --------------------------------------------------------
 # --------------------------------------------------------
