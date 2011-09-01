@@ -49,6 +49,9 @@ function lstest_print_result_menu($courseid, $userid, $moduleid) {
         $table->data[0][5] = helpbutton("itemstadistic", get_string("seeitemstadistic", "lstest"), "lstest", true, false, "", true);
         $table->data[0][6] = "<a href=teststadistic.php?id=$moduleid>".get_string("seeteststadistic", "lstest")."</a>";
         $table->data[0][7] = helpbutton("teststadistic", get_string("seeteststadistic", "lstest"), "lstest", true, false, "", true);
+        $table->data[0][8] = helpbutton("groupstadistic", get_string("seegroupstadistic", "lstest"), "lstest", true, false, "", true);
+        $table->data[0][6] = "<a href=groupstadistic.php?id=$moduleid>".get_string("seegroupstadistic", "lstest")."</a>";
+
         lstest_print_table($table);
     }
 }

@@ -42,7 +42,7 @@
     $categorystudentsnum = count($categorystudentsids);
     $allstudentsnum = count($allstudentsids);
 
-    echo "<BR>";
+    echo "<br>";
     $inthecoursestr = get_string("inthecourse", "lstest");
     $inthecategorystr = get_string("inthecategory", "lstest");
     $inmoodlestr = get_string("inmoodle", "lstest");
