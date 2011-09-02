@@ -28,9 +28,12 @@
     /// Print the page header
     $navigation = build_navigation('', $cm);
     print_header_simple(format_string($lstest->name), "", $navigation);
-
     lstest_print_result_menu($course->id, $USER->id, $id);
+	/// END header
 
+	print_heading("Implementing...");
+
+/*
     $table->align = array("center", "center", "center", "center", "center", "center", "center", "center", "center", "center");
     $coursestudentsids = lstest_course_students($lstest->testsid, $course->id);
     $categorystudentsids = lstest_category_students($lstest->testsid, $course->category);
@@ -41,12 +44,10 @@
     $coursestudentsnum = count($coursestudentsids);
     $categorystudentsnum = count($categorystudentsids);
     $allstudentsnum = count($allstudentsids);
-	/// END header
 
 
     echo "\n<br>\n";
-	print_heading("Implementing...");
-/*
+
     $inthecoursestr = get_string("inthecourse", "lstest");
     $inthecategorystr = get_string("inthecategory", "lstest");
     $inmoodlestr = get_string("inmoodle", "lstest");
@@ -108,8 +109,6 @@
 
     }
 
-*/
-
     echo "\n<br>\n";
 
     print_heading(get_string("testresults", "lstest"));
@@ -119,6 +118,8 @@
         $table->data[] = array($style->name, $scores['course'][$style->id], $scores['category'][$style->id], $scores['all'][$style->id]);
     }
     lstest_print_table($table);
+
+*/
 
 /*
     echo "<BR>";
