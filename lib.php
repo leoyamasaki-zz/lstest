@@ -39,8 +39,8 @@ function lstest_print_graphic_selector($url, $moduleid, $courseid, $userid, $act
 
 function lstest_print_result_menu($courseid, $userid, $moduleid) {
     if( isteacher($courseid, $userid) ) {
-        $table->align = array("right", "left", "right", "left", "right", "left", "right", "left");
-        $table->size = array("1%", "1%", "1%", "1%", "1%", "1%", "1%", "1%");
+        $table->align = array("right", "left", "right", "left", "right", "left", "right", "left", "right", "left");
+        $table->size = array("1%", "1%", "1%", "1%", "1%", "1%", "1%", "1%", "1%", "1%");
         $table->data[0][0] = "<a href=students.php?id=$moduleid>".get_string("seestudents", "lstest")."</a>";
         $table->data[0][1] = helpbutton("students", get_string("seestudents", "lstest"), "lstest", true, false, "", true);
         $table->data[0][2] = "<a href=stylestadistic.php?id=$moduleid>".get_string("seestylestadistic", "lstest")."</a>";
@@ -49,8 +49,8 @@ function lstest_print_result_menu($courseid, $userid, $moduleid) {
         $table->data[0][5] = helpbutton("itemstadistic", get_string("seeitemstadistic", "lstest"), "lstest", true, false, "", true);
         $table->data[0][6] = "<a href=teststadistic.php?id=$moduleid>".get_string("seeteststadistic", "lstest")."</a>";
         $table->data[0][7] = helpbutton("teststadistic", get_string("seeteststadistic", "lstest"), "lstest", true, false, "", true);
-        $table->data[0][8] = helpbutton("groupstadistic", get_string("seegroupstadistic", "lstest"), "lstest", true, false, "", true);
-        $table->data[0][9] = "<a href=groupstadistic.php?id=$moduleid>".get_string("seegroupstadistic", "lstest")."</a>";
+        $table->data[0][8] = "<a href=groupstadistic.php?id=$moduleid>".get_string("seegroupstadistic", "lstest")."</a>";
+        $table->data[0][9] = helpbutton("groupstadistic", get_string("seegroupstadistic", "lstest"), "lstest", true, false, "", true);
 
         lstest_print_table($table);
     }
