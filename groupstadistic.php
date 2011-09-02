@@ -41,9 +41,12 @@
     $coursestudentsnum = count($coursestudentsids);
     $categorystudentsnum = count($categorystudentsids);
     $allstudentsnum = count($allstudentsids);
+	/// END header
 
-    echo "\n<br>\n<h1>What?</h1>\n";
 
+    echo "\n<br>\n";
+	print_heading("Implementing...");
+/*
     $inthecoursestr = get_string("inthecourse", "lstest");
     $inthecategorystr = get_string("inthecategory", "lstest");
     $inmoodlestr = get_string("inmoodle", "lstest");
@@ -104,6 +107,8 @@
         }
 
     }
+
+*/
 
     echo "\n<br>\n";
 

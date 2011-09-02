@@ -41,8 +41,9 @@
     $coursestudentsnum = count($coursestudentsids);
     $categorystudentsnum = count($categorystudentsids);
     $allstudentsnum = count($allstudentsids);
+	//End header
 
-    echo "<br>\n";
+    echo "\n<br>\n";
 
     $inthecoursestr = get_string("inthecourse", "lstest");
     $inthecategorystr = get_string("inthecategory", "lstest");
