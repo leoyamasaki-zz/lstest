@@ -42,7 +42,8 @@
     $categorystudentsnum = count($categorystudentsids);
     $allstudentsnum = count($allstudentsids);
 
-    echo "<br>";
+    echo "\n<br>\n<h1>What?</h1>\n";
+
     $inthecoursestr = get_string("inthecourse", "lstest");
     $inthecategorystr = get_string("inthecategory", "lstest");
     $inmoodlestr = get_string("inmoodle", "lstest");
@@ -104,7 +105,8 @@
 
     }
 
-    echo "<BR>";
+    echo "\n<br>\n";
+
     print_heading(get_string("testresults", "lstest"));
     $table->head = array(get_string("style", "lstest"), get_string("coursemedia", "lstest"), get_string("categorymedia", "lstest"), get_string("totalmedia", "lstest"));
     $table->data = array();
@@ -113,7 +115,7 @@
     }
     lstest_print_table($table);
 
-
+/*
     echo "<BR>";
     print_heading_with_help(get_string("maxandminresults", "lstest"), "maxminscores", "lstest");
     $table->headcolspan = array("1", "2", "2", "2");
@@ -125,9 +127,11 @@
     foreach ($styles as $style) {
         $table->data[] = array($style->name, $coursemaxscores[$style->id], $courseminscores[$style->id], $categorymaxscores[$style->id], $categoryminscores[$style->id], $totalmaxscores[$style->id], $totalminscores[$style->id]);
     }
-    lstest_print_table($table);
 
-    echo "<BR>";
+    lstest_print_table($table);
+*/
+    echo "<br>\n";
+
     print_footer($course);
 
 ?>

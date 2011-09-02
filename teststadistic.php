@@ -42,7 +42,8 @@
     $categorystudentsnum = count($categorystudentsids);
     $allstudentsnum = count($allstudentsids);
 
-    echo "<br>";
+    echo "<br>\n";
+
     $inthecoursestr = get_string("inthecourse", "lstest");
     $inthecategorystr = get_string("inthecategory", "lstest");
     $inmoodlestr = get_string("inmoodle", "lstest");
@@ -104,7 +105,8 @@
 
     }
 
-    echo "<BR>";
+    echo "\n<br>\n";
+
     print_heading(get_string("testresults", "lstest"));
     $table->head = array(get_string("style", "lstest"), get_string("coursemedia", "lstest"), get_string("categorymedia", "lstest"), get_string("totalmedia", "lstest"));
     $table->data = array();
@@ -114,20 +116,22 @@
     lstest_print_table($table);
 
 
-    echo "<BR>";
+    echo "\n<br>\n";
+
     print_heading_with_help(get_string("maxandminresults", "lstest"), "maxminscores", "lstest");
     $table->headcolspan = array("1", "2", "2", "2");
     $table->head = array(get_string("style", "lstest"), $inthecoursestr, $inthecategorystr, $inmoodlestr);
     $table->data = array();
     $maxscorestr = get_string("maxscore", "lstest");
     $minscorestr = get_string("minscore", "lstest");
-    $table->data[0] = array("", "<FONT size=1>".$maxscorestr."</FONT>", "<FONT size=1>".$minscorestr."</FONT>", "<FONT size=1>".$maxscorestr."</FONT>", "<FONT size=1>".$minscorestr."</FONT>", "<FONT size=1>".$maxscorestr."</FONT>", "<FONT size=1>".$minscorestr."</FONT>");
+    $table->data[0] = array("", "<font size=1>".$maxscorestr."</font>", "<font size=1>".$minscorestr."</font>", "<font size=1>".$maxscorestr."</font>", "<font size=1>".$minscorestr."</font>", "<font size=1>".$maxscorestr."</font>", "<font size=1>".$minscorestr."</font>");
     foreach ($styles as $style) {
         $table->data[] = array($style->name, $coursemaxscores[$style->id], $courseminscores[$style->id], $categorymaxscores[$style->id], $categoryminscores[$style->id], $totalmaxscores[$style->id], $totalminscores[$style->id]);
     }
     lstest_print_table($table);
 
-    echo "<BR>";
+    echo "\n<br>\n";
+
     print_footer($course);
 
 ?>
