@@ -104,5 +104,5 @@ $string['withoutthresholds'] = 'El test no contiene umbrales de pertenencia a lo
 $string['writemedias'] = 'Escribir las medias';
 $string['youcannotchange'] = '¡¡ Debes ser administrador para cambiar los tests de estilos de aprendizaje !!';
 $string['zoom'] = 'Zoom';
-
+$string['seegroupstadistic'] = 'Estadísticas de grupos'
 ?>

@@ -104,5 +104,5 @@ $string['withoutthresholds'] = 'Test don\'t have pertenency thresholds';
 $string['writemedias'] = 'Write medias';
 $string['youcannotchange'] = 'You must be admin to change learning style tests!';
 $string['zoom'] = 'Zoom';
-
+$string['seegroupstadistic'] = 'Grup statistics'
 ?>
