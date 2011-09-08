@@ -39,7 +39,7 @@
 
     if(!empty($userid)) {
 
-        echo "<BR>";
+        echo "<br>";
         $user = get_record("user", "id", $userid);
         print_heading(get_string("seestudent", "lstest", "$user->firstname $user->lastname"));
 
@@ -78,18 +78,15 @@
     if ($students != NULL) {
         $counter=0;
         foreach ($students as $student) {
-
             if ( count_records("lstest_user_scores", "stylesid", $onestyle->id, "userid", $student->id) > 0) {
                 $user = get_record("user", "id", $student->id);
-                $table->data[$counter++][0] = "<A HREF=students.php?id=$id&userid=$student->id>$user->firstname $user->lastname</A><BR>";
-
+                $table->data[$counter++][0] = "<a href=students.php?id=$id&userid=$student->id>$user->firstname $user->lastname</a><br>";
             }
-
         }
     }
-    echo "<BR>";
+    echo "<br>";
     print_table($table);
-    echo "<BR>";
+    echo "<br>";
     print_footer($course);
 
 ?>

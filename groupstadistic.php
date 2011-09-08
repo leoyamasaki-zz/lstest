@@ -31,7 +31,10 @@
     lstest_print_result_menu($course->id, $USER->id, $id);
 	/// END header
 
-	print_heading("Implementing...");
+	print_heading("Testing...");
+
+
+
 
 /*
     $table->align = array("center", "center", "center", "center", "center", "center", "center", "center", "center", "center");
