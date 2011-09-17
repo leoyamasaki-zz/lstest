@@ -49,7 +49,7 @@
 	print_r($styleslist);
 	echo("<br>\n");
 	print_r(lstest_all_users_scores($lstest->testsid));
-	print_r(lstest_course_scores($courseid->id, $lstest->testsid);
+	print_r(lstest_course_scores($courseid->id, $lstest->testsid));
 
 /*
     $table->align = array("center", "center", "center", "center", "center", "center", "center", "center", "center", "center");
