@@ -1322,7 +1322,7 @@ function lstest_user_scores($testid, $userid) {
     if (!empty($scores)) {
         foreach ($styles as $style) {
 			$result = array_push($scores[$style->id]);
-			echo("<br>");echo($scores[$style->id]);
+//			echo("<br>");echo($scores[$style->id]);
 		}
     }
     return $result;
