@@ -2,6 +2,7 @@
 
     require_once("../../config.php");
     require_once("lib.php");
+    require_once("libcluster.php");
 
     $id = optional_param('id', 0, PARAM_INT);        // Course Module ID
 
@@ -55,13 +56,14 @@
 	$studentsincourse = lstest_course_students($lstest->testsid, $course->id);
 	print_r($studentsincourse);
 	echo("<br>\n");
-	echo("<div><table>\n");
+	echo("<div><table border='1'>\n");
 	foreach($studentsincourse as $studentid){
-		echo("<tr><td>");
+		echo("<tr><td>\n");
 		print_r(lstest_user_scores($lstest->testsid, $studentid));
-		echo("</td></tr>");
+		echo("</td></tr>\n");
 	}
 	echo("</div></table>\n");
+	
 	
 
 /*

@@ -25,9 +25,8 @@
 require_once('Math/Vector.php');
 require_once('Math/Matrix.php');
 
-function kmeans($data, $k)
+function kmeans($data, $k,$maxiterations = 20)
 {
-	$maxiterations = 20;
 	$dim = $data->getSize();
 	$m = $dim[0];
 	$n = $dim[1];

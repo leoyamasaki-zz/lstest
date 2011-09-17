@@ -1317,15 +1317,6 @@ function lstest_user_scores($testid, $userid) {
 		$userscore = current($userscores);
 		$result[$style->id] = $userscore->score;
     }
-/*	print_r($scores);
-	$result = array();
-    if (!empty($scores)) {
-        foreach ($styles as $style) {
-			$result = array_push($scores[$style->id]);
-//			echo("<br>");echo($scores[$style->id]);
-		}
-    }
-*/
     return $result;
 }
 
