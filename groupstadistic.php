@@ -87,6 +87,7 @@
 		$user = get_record("user", "id", $userid);
 		array_push($table[$numtable]->data, array($userid,$user->firstname." ".$user->lastname,$numtable));
 	}
+	print_r($table);
 	for($i=0;$i<$numclases;$i++){
 		$table[$i]->align = array("center","center","center");
 		$table[$i]->head = array("ID","Name","Class");
