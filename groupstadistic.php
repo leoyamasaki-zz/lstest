@@ -58,11 +58,13 @@
 	echo("<br>\n");
 	echo("<div><table border='1'>\n");
 	$data = array();
+	$students = array();
 	$n = 0;
 	foreach($studentsincourse as $studentid){
 		echo("<tr><td>\n");
 		$scores = lstest_user_scores($lstest->testsid, $studentid);
 		$m = 0;
+		$students[$n][$m] = $studentid;
 		foreach($scores as $val){
 			$data[$n][$m] = $val;
 			$m++;
@@ -73,10 +75,12 @@
 	}
 	echo("</div></table>\n");
 //	print_r($data);
-	$datamatrix = new Math_Matrix($data);
-	echo($datamatrix->toHTML());
+	$scoresmatrix = new Math_Matrix($data);
+	$studentsmatrix = new Math_Matrix($students);
 	$numclases = 3;
-	$classasign = lstest_Kmeans($datamatrix,$numclases,"cartesian",10);
+	$classasign = lstest_Kmeans($scoresmatrix,$numclases,"cartesian",10);
+	echo($studentsmatrix->toHTML());
+	echo($scoresmatrix->toHTML());
 	echo($classasign->toHTML());
 /*
     $table->align = array("center", "center", "center", "center", "center", "center", "center", "center", "center", "center");
