@@ -63,8 +63,8 @@
 		echo("<tr><td>\n");
 		$scores = lstest_user_scores($lstest->testsid, $studentid);
 		$m = 0;
-		foreach($scores as $value){
-			$data[$m][$n] = $value);
+		foreach($scores as $val){
+			$data[$m][$n] = $val;
 			$m++;
 		}
 		$n++;
