@@ -59,7 +59,7 @@ function lstest_Kmeans($data, $k,$measure = 'cartesian',$maxiterations = 20)
 			lstest_MakeDistMatrix($data,$k,$centroids,$distmatrix,$measure);
 		}
 	}
-	return $distmatrix;
+	return $clusters;
 }
 
 function lstest_MakeDistMatrix($data,$k,$centroids,$distances,$measure = 'cartesian'){

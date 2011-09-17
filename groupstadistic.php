@@ -68,11 +68,11 @@
 			$m++;
 		}
 		$n++;
-//		print_r($scores);
+		print_r($scores);
 		echo("</td></tr>\n");
 	}
 	echo("</div></table>\n");
-	print_r($data);
+//	print_r($data);
 	$datamatrix = new Math_Matrix($data);
 	echo($datamatrix->toHTML());
 	$numclases = 3;
