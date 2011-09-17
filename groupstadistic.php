@@ -33,7 +33,7 @@
 
 	print_heading("Testing...");
 
-
+print_r(lstest_all_students(1));
 
 
 /*
