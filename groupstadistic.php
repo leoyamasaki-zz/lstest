@@ -54,7 +54,7 @@
 	print_r(lstest_course_scores($course->id, $lstest->testsid));
 	echo("<br>\n");
 	$studentsincourse = lstest_course_students($lstest->testsid, $course->id);
-	print_r($studentsincourse);
+//	print_r($studentsincourse);
 	echo("<br>\n");
 	echo("<div><table border='1'>\n");
 	$data = array();
@@ -70,7 +70,7 @@
 			$m++;
 		}
 		$n++;
-		print_r($scores);
+//		print_r($scores);
 		echo("</td></tr>\n");
 	}
 	echo("</div></table>\n");
