@@ -32,9 +32,21 @@
 	/// END header
 
 //	print_heading("Testing...");
-	
-	
+	global $DB;
 
+
+	$styles = $DB->get_records("lstest_user_scores", "testsid", "$lstest->testsid", "id asc");
+/*	foreach($styles as $style){
+		$score[$style] = get_records("lstest_styles_score", "testsid", "$lstest->testsid", "id asc");
+		
+	}
+	
+	$table->align = array("center","center","center");
+	$table->head = array("ID","","");
+	$table->data = array();
+	lstest_print_table($table);
+*/
+	print_r($styles);
 
 /*
     $table->align = array("center", "center", "center", "center", "center", "center", "center", "center", "center", "center");
