@@ -36,17 +36,17 @@
 
 
 	$styles = get_records("lstest_styles", "testsid", "$lstest->testsid", "id asc");
-/*	foreach($styles as $style){
-		$score[$style] = get_records("lstest_styles_score", "testsid", "$lstest->testsid", "id asc");
+	foreach($styles as $style){
+		$styleslist[$style->id] = $styles->id;
 		
 	}
-	
+/*	
 	$table->align = array("center","center","center");
 	$table->head = array("ID","","");
 	$table->data = array();
 	lstest_print_table($table);
 */
-	print_r($styles);
+	print_r($styleslist);
 
 /*
     $table->align = array("center", "center", "center", "center", "center", "center", "center", "center", "center", "center");
