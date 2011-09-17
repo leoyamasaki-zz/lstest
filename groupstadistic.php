@@ -89,6 +89,7 @@
 		print_r($d);
 		array_push($table[$numtable]->data, $d);
 	}
+	print_r($table);
 
 	for($i=0;$i<$numclases;$i++){
 		$table[$i]->align = array("center","center","center");
