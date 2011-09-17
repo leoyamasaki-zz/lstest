@@ -38,8 +38,8 @@
 	$styles = get_records("lstest_styles", "testsid", "$lstest->testsid", "id asc");
 	foreach($styles as $style){
 		$styleslist[$style->id] = $style->id;
-		
 	}
+	
 /*	
 	$table->align = array("center","center","center");
 	$table->head = array("ID","","");
@@ -47,6 +47,8 @@
 	lstest_print_table($table);
 */
 	print_r($styleslist);
+	echo("<br>\n");
+	print_r(lstest_all_users_scores($testid));
 
 /*
     $table->align = array("center", "center", "center", "center", "center", "center", "center", "center", "center", "center");
