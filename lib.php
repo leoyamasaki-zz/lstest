@@ -1309,6 +1309,29 @@ function lstest_user_predominance($testid, $userid) {
     return $result;
 }
 
+function lstest_user_scores($testid, $userid) {
+    $styles = get_records("lstest_styles", "testsid", $testid, "id asc");
+    $levels = get_records("lstest_levels", "testsid", $testid, "id asc");
+    $userlevels = array();
+    foreach ($styles as $style) {
+        if ($userscores = get_records_select("lstest_user_scores", "stylesid = '$style->id' AND userid = '$userid'", "time desc", "*", "0", "1")) {
+            $userscore = current($userscores);
+            $userlevels[$style->id] = $userscore->levelsid;
+        }
+    }
+    if (!empty($userlevels)) {
+        $result = array();
+        foreach ($styles as $style) {
+			$result = array_push($userlevels[$style->id]);
+		}
+    } else {
+        $result = false;
+    }
+    return $result;
+}
+
+
+
 /// END LSTEST CONDITIONAL
 
 

@@ -52,7 +52,16 @@
 	echo("<br>\n");
 	print_r(lstest_course_scores($course->id, $lstest->testsid));
 	echo("<br>\n");
-	print_r(lstest_course_students($lstest->testsid, $course->id));
+	$studentsincourse = lstest_course_students($lstest->testsid, $course->id);
+	print_r($studentsincourse);
+	echo("<br>\n");
+	echo("<table>\n");
+	foreach($studentsincourse as $studentid){
+		echo("<tr><td>");
+		print_r(lstest_user_scores($lstest->testsid, $studentid));
+		echo("</td></tr>");
+	}
+	
 
 /*
     $table->align = array("center", "center", "center", "center", "center", "center", "center", "center", "center", "center");

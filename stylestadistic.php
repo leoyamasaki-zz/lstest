@@ -30,7 +30,7 @@
 
     lstest_predominance_tables($lstest->testsid, $course->id);
 
-    echo "<BR>";
+    echo "<br>\n";
     print_footer($course);
 
 ?>
