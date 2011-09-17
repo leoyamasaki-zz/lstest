@@ -35,7 +35,7 @@
 //	global $DB;
 
 
-	$styles = get_records("lstest_user_scores", "testsid", "$lstest->testsid", "id asc");
+	$styles = get_records("lstest_styles", "testsid", "$lstest->testsid", "id asc");
 /*	foreach($styles as $style){
 		$score[$style] = get_records("lstest_styles_score", "testsid", "$lstest->testsid", "id asc");
 		
