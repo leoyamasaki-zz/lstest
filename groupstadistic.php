@@ -62,7 +62,7 @@
 	foreach($studentsincourse as $studentid){
 		echo("<tr><td>\n");
 		print_r(lstest_user_scores($lstest->testsid, $studentid));
-		$data[n] = lstest_user_scores($lstest->testsid, $studentid);
+		$data[$n] = lstest_user_scores($lstest->testsid, $studentid);
 		$n++;
 		echo("</td></tr>\n");
 	}
