@@ -67,8 +67,9 @@
 		echo("</td></tr>\n");
 	}
 	echo("</div></table>\n");
+	print_r($data);
 	$datamatrix = new Math_Matrix($data);
-	$datamatrix->toHTML();
+	echo($datamatrix->toHTML());
 
 /*
     $table->align = array("center", "center", "center", "center", "center", "center", "center", "center", "center", "center");
