@@ -77,20 +77,20 @@
 	$studentsmatrix = new Math_Matrix($students);
 	$numclases = 3;
 	$classasign = lstest_Kmeans($scoresmatrix,$numclases,"cartesian",10);
-	echo($studentsmatrix->toHTML());
-	echo($scoresmatrix->toHTML());
-	echo($classasign->toHTML());
+//	echo($studentsmatrix->toHTML());
+//	echo($scoresmatrix->toHTML());
+//	echo($classasign->toHTML());
 
 	for($i=0;$i<$numstudents;$i++){
 		$numtable = $classasign->getElement($i,0);
-		$userid = $studentsmatrix->getElement($i);
+		$userid = $studentsmatrix->getElement($i,0);
 		$user = get_record("user", "id", $userid);
 		array_push($table[$numtable]->data, array($userid,$user->firstname." ".$user->lastname,$numtable));
 	}
 	for($i=0;$i<$numclases;$i++){
 		$table[$i]->align = array("center","center","center");
 		$table[$i]->head = array("ID","Name","Class");
-		echo("<h1>Class: $i");
+		print_heading("<h1>Class: $i");
 		lstest_print_table($table[$i]);
 	}
 
