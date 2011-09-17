@@ -31,9 +31,9 @@
     lstest_print_result_menu($course->id, $USER->id, $id);
 	/// END header
 
-	print_heading("Testing...");
-
-print_r(lstest_all_students(1));
+//	print_heading("Testing...");
+	
+	
 
 
 /*
