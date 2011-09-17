@@ -80,10 +80,13 @@
 //	echo($studentsmatrix->toHTML());
 //	echo($scoresmatrix->toHTML());
 //	echo($classasign->toHTML());
-
+	for($i=0;$i<$numclases;$i++){
+		$table[$i]->align = array("center","center","center");
+		$table[$i]->head  = array("ID","Name","Class");
+		$table[$i]->data  = array();
+	}
 	for($i=0;$i<$numstudents;$i++){
 		$numtable = $classasign->getElement($i,0);
-		$table[$numtable]->data = array();
 		$userid = $studentsmatrix->getElement($i,0);
 		$user = get_record("user", "id", $userid);
 		$d = array($userid,$user->firstname." ".$user->lastname,$numtable);
@@ -93,8 +96,6 @@
 	print_r($table);
 
 	for($i=0;$i<$numclases;$i++){
-		$table[$i]->align = array("center","center","center");
-		$table[$i]->head = array("ID","Name","Class");
 		print_heading("<h1>Class: $i");
 		lstest_print_table($table[$i]);
 	}
