@@ -1311,13 +1311,13 @@ function lstest_user_predominance($testid, $userid) {
 
 function lstest_user_scores($testid, $userid) {
     $styles = get_records("lstest_styles", "testsid", $testid, "id asc");
-    $scores = array();
+    $result = array();
     foreach ($styles as $style) {
         $userscores = get_records_select("lstest_user_scores", "stylesid = '$style->id' AND userid = '$userid'", "time desc", "*", "0", "1");
 		$userscore = current($userscores);
-		$scores[$style->id] = $userscore->score;
+		$result[$style->id] = $userscore->score;
     }
-//	print_r($scores);
+/*	print_r($scores);
 	$result = array();
     if (!empty($scores)) {
         foreach ($styles as $style) {
@@ -1325,6 +1325,7 @@ function lstest_user_scores($testid, $userid) {
 //			echo("<br>");echo($scores[$style->id]);
 		}
     }
+*/
     return $result;
 }
 
