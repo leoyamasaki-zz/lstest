@@ -64,7 +64,7 @@
 		$scores = lstest_user_scores($lstest->testsid, $studentid);
 		$m = 0;
 		foreach($scores as $val){
-			$data[$m][$n] = $val;
+			$data[$n][$m] = $val;
 			$m++;
 		}
 		$n++;
