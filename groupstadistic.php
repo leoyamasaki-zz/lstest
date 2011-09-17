@@ -68,14 +68,16 @@
 			$m++;
 		}
 		$n++;
-		print_r($scores);
+//		print_r($scores);
 		echo("</td></tr>\n");
 	}
 	echo("</div></table>\n");
 	print_r($data);
 	$datamatrix = new Math_Matrix($data);
 	echo($datamatrix->toHTML());
-
+	$numclases = 3;
+	$classasign = lstest_Kmeans($datamatrix,$numclases,"cartesian",10);
+	echo($classasign->toHTML());
 /*
     $table->align = array("center", "center", "center", "center", "center", "center", "center", "center", "center", "center");
     $coursestudentsids = lstest_course_students($lstest->testsid, $course->id);

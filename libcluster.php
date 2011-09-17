@@ -25,7 +25,7 @@
 require_once('Math/Vector.php');
 require_once('Math/Matrix.php');
 
-function kmeans($data, $k,$maxiterations = 20)
+function lstest_Kmeans($data, $k,$measure = 'cartesian',$maxiterations = 20)
 {
 	$dim = $data->getSize();
 	$m = $dim[0];
@@ -33,9 +33,9 @@ function kmeans($data, $k,$maxiterations = 20)
 	$clusters = Math_Matrix::makeMatrix($m,1,0);
 	$centroids = Math_Matrix::makeMatrix($m,$n,0);
 	$distmatrix = Math_Matrix::makeMatrix($m,$k,0);
-	AssignInitialPositions($data, $k, $clusters);
-	CalculateCentroids($data,$k,$clusters,$centroids);
-	MakeDistMatrix($data,$k,$centroids,$distmatrix);
+	lstest_AssignInitialPositions($data, $k, $clusters);
+	lstest_CalculateCentroids($data,$k,$clusters,$centroids);
+	lstest_MakeDistMatrix($data,$k,$centroids,$distmatrix,$measure);
 	$change = true;
 	$minindex = array();
 	$rowtest = Math_Matrix::makeMatrix(1,$k,0);
@@ -55,14 +55,14 @@ function kmeans($data, $k,$maxiterations = 20)
 			}
 		}
 		if($change){ //then recalculate centroids
-			CalculateCentroids($data,$k,$clusters,$centroids);
-			MakeDistMatrix($data,$k,$centroids,$distmatrix);
+			lstest_CalculateCentroids($data,$k,$clusters,$centroids);
+			lstest_MakeDistMatrix($data,$k,$centroids,$distmatrix,$measure);
 		}
 	}
 	return $distmatrix;
 }
 
-function MakeDistMatrix($data,$k,$centroids,$distances){
+function lstest_MakeDistMatrix($data,$k,$centroids,$distances,$measure = 'cartesian'){
 	$dim = $data->getSize();
 	$m = $dim[0];
 	$n = $dim[1];
@@ -72,7 +72,7 @@ function MakeDistMatrix($data,$k,$centroids,$distances){
 		for($kn=0;$kn<$k;$kn++){
 			$x->setData($data->getRow($i));
 			$y->setData($centroids->getRow($kn));
-			$s = $x->distance($y,'cartesian'); //Can choos 'cartesian'=euclidean or 'chessboard'=manhattan
+			$s = $x->distance($y,$measure); //Can choose 'cartesian'=euclidean or 'chessboard'=manhattan
 			$distances->setElement($i,$kn,round($s,3));
 		}
 	}
@@ -80,7 +80,7 @@ function MakeDistMatrix($data,$k,$centroids,$distances){
 	unset($y);
 }
 
-function CalculateCentroids($data,$k,$klass,$centroids){
+function lstest_CalculateCentroids($data,$k,$klass,$centroids){
 	$decimales = 3;
 	$dim = $data->getSize();
 	$m = $dim[0];
@@ -109,7 +109,7 @@ function CalculateCentroids($data,$k,$klass,$centroids){
 	unset($sumcent);
 }
 
-function AssignInitialPositions($data,$k,$class){
+function lstest_AssignInitialPositions($data,$k,$class){
 	$dim = $data->getSize();
 	$m = $dim[0];
 	$n = $dim[1];
@@ -118,7 +118,7 @@ function AssignInitialPositions($data,$k,$class){
 	}
 }
 
-function plot($imgfilename,$data,$k,$clases,$centroids){
+function lstest_plot($imgfilename,$data,$k,$clases,$centroids){
 	// Size of the image 
 	$width  = 500;
 	$height = 500;
