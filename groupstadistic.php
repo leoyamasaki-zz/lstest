@@ -57,13 +57,17 @@
 	print_r($studentsincourse);
 	echo("<br>\n");
 	echo("<div><table border='1'>\n");
+	$data = array();
+	$n = 0;
 	foreach($studentsincourse as $studentid){
 		echo("<tr><td>\n");
 		print_r(lstest_user_scores($lstest->testsid, $studentid));
+		$data[n] = lstest_user_scores($lstest->testsid, $studentid);
+		$n++;
 		echo("</td></tr>\n");
 	}
 	echo("</div></table>\n");
-	
+	print_r($data);
 	
 
 /*
