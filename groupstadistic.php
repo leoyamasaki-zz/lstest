@@ -89,14 +89,15 @@
 		print_r($d);
 		array_push($table[$numtable]->data, $d);
 	}
-	print_r($table);
+
 	for($i=0;$i<$numclases;$i++){
 		$table[$i]->align = array("center","center","center");
 		$table[$i]->head = array("ID","Name","Class");
 		print_heading("<h1>Class: $i");
 		lstest_print_table($table[$i]);
 	}
-
+	print_r($table);
+	
 //	$table->align = array("center","center","center");
 //	$table->head = array("ID","","");
 //	$table->data = array();
