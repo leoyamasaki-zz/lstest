@@ -42,38 +42,36 @@
 	}
 	
 /*	
-	$table->align = array("center","center","center");
-	$table->head = array("ID","","");
-	$table->data = array();
-	lstest_print_table($table);
 */
-	print_r($styleslist);
-	echo("<br>\n");
-	print_r(lstest_all_users_scores($lstest->testsid));
-	echo("<br>\n");
-	print_r(lstest_course_scores($course->id, $lstest->testsid));
-	echo("<br>\n");
+//	print_r($styleslist);
+//	echo("<br>\n");
+//	print_r(lstest_all_users_scores($lstest->testsid));
+//	echo("<br>\n");
+//	print_r(lstest_course_scores($course->id, $lstest->testsid));
+//	echo("<br>\n");
 	$studentsincourse = lstest_course_students($lstest->testsid, $course->id);
 //	print_r($studentsincourse);
-	echo("<br>\n");
-	echo("<div><table border='1'>\n");
+//	echo("<br>\n");
+//	echo("<div><table border='1'>\n");
 	$data = array();
 	$students = array();
+	$numstudents = 0;
 	$n = 0;
 	foreach($studentsincourse as $studentid){
-		echo("<tr><td>\n");
+//		echo("<tr><td>\n");
 		$scores = lstest_user_scores($lstest->testsid, $studentid);
 		$m = 0;
 		$students[$n][$m] = $studentid;
+		$numstudents++;
 		foreach($scores as $val){
 			$data[$n][$m] = $val;
 			$m++;
 		}
 		$n++;
 //		print_r($scores);
-		echo("</td></tr>\n");
+//		echo("</td></tr>\n");
 	}
-	echo("</div></table>\n");
+//	echo("</div></table>\n");
 //	print_r($data);
 	$scoresmatrix = new Math_Matrix($data);
 	$studentsmatrix = new Math_Matrix($students);
@@ -82,6 +80,25 @@
 	echo($studentsmatrix->toHTML());
 	echo($scoresmatrix->toHTML());
 	echo($classasign->toHTML());
+
+	for($i=0;$i<$numstudents;$i++){
+		$numtable = $classasign->getElement($i,0);
+		$userid = $studentsmatrix->getElement($i);
+		$user = get_record("user", "id", $userid);
+		array_push($table[$numtable]->data, array($userid,$user->firstname." ".$user->lastname,$numtable));
+	}
+	for($i=0;$i<$numclases;$i++){
+		$table[$i]->align = array("center","center","center");
+		$table[$i]->head = array("ID","Name","Class");
+		echo("<h1>Class: $i");
+		lstest_print_table($table[$i]);
+	}
+
+//	$table->align = array("center","center","center");
+//	$table->head = array("ID","","");
+//	$table->data = array();
+//	lstest_print_table($table);
+
 /*
     $table->align = array("center", "center", "center", "center", "center", "center", "center", "center", "center", "center");
     $coursestudentsids = lstest_course_students($lstest->testsid, $course->id);
