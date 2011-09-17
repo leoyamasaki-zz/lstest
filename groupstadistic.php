@@ -48,7 +48,7 @@
 */
 	print_r($styleslist);
 	echo("<br>\n");
-	print_r(lstest_all_users_scores($lstest->testid));
+	print_r(lstest_all_users_scores($lstest->testsid));
 
 /*
     $table->align = array("center", "center", "center", "center", "center", "center", "center", "center", "center", "center");
