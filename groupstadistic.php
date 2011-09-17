@@ -90,16 +90,16 @@
 		$userid = $studentsmatrix->getElement($i,0);
 		$user = get_record("user", "id", $userid);
 		$d = array($userid,$user->firstname." ".$user->lastname,$numtable);
-		print_r($d);
+//		print_r($d);
 		array_push($table[$numtable]->data, $d);
 	}
-	print_r($table);
+//	print_r($table);
 
 	for($i=0;$i<$numclases;$i++){
-		print_heading("<h1>Class: $i");
+		print_heading("Class: $i");
 		lstest_print_table($table[$i]);
 	}
-	print_r($table);
+//	print_r($table);
 	
 //	$table->align = array("center","center","center");
 //	$table->head = array("ID","","");
