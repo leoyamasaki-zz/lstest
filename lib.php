@@ -1319,13 +1319,12 @@ function lstest_user_scores($testid, $userid) {
             $userlevels[$style->id] = $userscore->levelsid;
         }
     }
+	$result = array();
     if (!empty($userlevels)) {
-        $result = array();
         foreach ($styles as $style) {
 			$result = array_push($userlevels[$style->id]);
+			echo("<br>$userlevels[$style->id]");
 		}
-    } else {
-        $result = false;
     }
     return $result;
 }
