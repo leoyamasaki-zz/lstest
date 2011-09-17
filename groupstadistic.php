@@ -37,7 +37,7 @@
 
 	$styles = get_records("lstest_styles", "testsid", "$lstest->testsid", "id asc");
 	foreach($styles as $style){
-		$styleslist[$style->id] = $styles->id;
+		$styleslist[$style->id] = $style->id;
 		
 	}
 /*	
