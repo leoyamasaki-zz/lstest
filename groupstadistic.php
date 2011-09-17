@@ -55,11 +55,11 @@
 	$studentsincourse = lstest_course_students($lstest->testsid, $course->id);
 	print_r($studentsincourse);
 	echo("<br>\n");
-	echo("<table>\n");
+//	echo("<table>\n");
 	foreach($studentsincourse as $studentid){
-		echo("<tr><td>");
+//		echo("<tr><td>");
 		print_r(lstest_user_scores($lstest->testsid, $studentid));
-		echo("</td></tr>");
+//		echo("</td></tr>");
 	}
 	
 
