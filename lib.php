@@ -1313,7 +1313,7 @@ function lstest_user_scores($testid, $userid) {
     $styles = get_records("lstest_styles", "testsid", $testid, "id asc");
     $userscores = array();
     foreach ($styles as $style) {
-        $userscores = get_records_select("lstest_user_scores", "stylesid = '$style->id' AND userid = '$userid'", "time desc", "*", "0", "1");
+        $userscores = array_push(get_records_select("lstest_user_scores", "stylesid = '$style->id' AND userid = '$userid'", "time desc", "*", "0", "1"));
     }
 	$result = array();
     if (!empty($userscores)) {
