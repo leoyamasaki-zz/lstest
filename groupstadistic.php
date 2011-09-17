@@ -61,9 +61,14 @@
 	$n = 0;
 	foreach($studentsincourse as $studentid){
 		echo("<tr><td>\n");
-		print_r(lstest_user_scores($lstest->testsid, $studentid));
-		$data[$n] = lstest_user_scores($lstest->testsid, $studentid);
+		$scores = lstest_user_scores($lstest->testsid, $studentid);
+		$m = 0;
+		foreach($scores as $value){
+			$data[$m][$n] = $value);
+			$m++;
+		}
 		$n++;
+		print_r($scores);
 		echo("</td></tr>\n");
 	}
 	echo("</div></table>\n");
