@@ -83,6 +83,7 @@
 
 	for($i=0;$i<$numstudents;$i++){
 		$numtable = $classasign->getElement($i,0);
+		$table[$numtable]->data = array();
 		$userid = $studentsmatrix->getElement($i,0);
 		$user = get_record("user", "id", $userid);
 		$d = array($userid,$user->firstname." ".$user->lastname,$numtable);
