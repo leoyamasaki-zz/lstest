@@ -32,10 +32,10 @@
 	/// END header
 
 //	print_heading("Testing...");
-	global $DB;
+//	global $DB;
 
 
-	$styles = $DB->get_records("lstest_user_scores", "testsid", "$lstest->testsid", "id asc");
+	$styles = get_records("lstest_user_scores", "testsid", "$lstest->testsid", "id asc");
 /*	foreach($styles as $style){
 		$score[$style] = get_records("lstest_styles_score", "testsid", "$lstest->testsid", "id asc");
 		
